@@ -1,0 +1,6 @@
+<div *ngIf="users" class="cart-footer">
+  <h3 class="title title_center">История поиска</h3>
+  <ul class="list">
+    <li class="list__item" *ngFor="let user of users"> <strong>{{user.name.first}}</strong> - <i>{{user.email}}</i> </li>
+  </ul>
+</div>

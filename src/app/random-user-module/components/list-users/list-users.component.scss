@@ -1,0 +1,16 @@
+.cart-footer{
+  padding: 10px;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  box-shadow:  0 0 10px 0 rgba(150,150,150,0.4);
+  .list{
+    .list__item{
+      list-style: none;
+      line-height: 25px;
+    }
+  }
+}
+.title{
+  font-size: 18px;
+  margin: 10px 0 15px;
+}
