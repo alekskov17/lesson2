@@ -5,8 +5,8 @@
       <img class="user__img-avatar" [src]="userCurrent?.picture.large | notAvatar">
     </div>
     <div class="user__name">{{userCurrent?.name.last}}</div>
-    <div class="user__info_silver">{{userCurrent.phone}}</div>
-    <div class="user__info_silver">{{userCurrent.email}}</div>
+    <div class="user__info_silver">{{userCurrent?.phone}}</div>
+    <div class="user__info_silver">{{userCurrent?.email}}</div>
   </div>
   <button class="btn cart__btn-send" (click)="getUser()">
     Найти

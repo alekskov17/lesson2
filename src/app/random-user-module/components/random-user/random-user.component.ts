@@ -7,7 +7,7 @@ import {ListUsersComponent} from '../list-users/list-users.component';
 @Component({
   selector: 'app-random-user',
   templateUrl: './random-user.component.html',
-  styleUrls: ['./style.scss'],
+  styleUrls: ['./random-user.component.scss'],
   providers:[
     RandomUserService
   ]
